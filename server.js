@@ -13,7 +13,7 @@ const mongoose = require('mongoose');
 const connectDB = require('./config/dbConn');
 const PORT = process.env.PORT || 3500;
 
-//Connect to mongpDB
+//Connect to mongoDB
 connectDB();
 
 // custom middleWare logger 一番上に書く
@@ -51,6 +51,7 @@ app.use('/logout', require('./routes/logout'));
 
 app.use(verifyJWT); // このコードより下のコードに影響を与えるから、関係のないものはここより上に位置させる
 app.use('/employees', require('./routes/api/employees'));
+app.use('/users', require('./routes/api/users'));
 
 app.all('*', (req, res) => {
     res.status(404);
