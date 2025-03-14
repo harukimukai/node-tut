@@ -1,0 +1,6 @@
+20250301	18:19:27	36deb719-4cfa-437b-b8ed-39257fc92186	TypeError: fsPromises.readFil is not a function
+20250302	14:35:41	38303baf-c5af-4e9e-a041-75e7928dfc2f	Error: Not allowed by CORS
+20250309	00:28:39	d8cc42ea-e2c8-4334-a145-9420229e671c	TypeError: Cannot read properties of undefined (reading 'id')
+20250309	00:29:10	79c1b7b6-9fdc-4dbd-a84b-8435c8bc848e	TypeError: Cannot read properties of undefined (reading 'id')
+20250311	18:38:58	7047c830-8865-4c1a-9486-0bbd263f4fc7	SyntaxError: Expected property name or '}' in JSON at position 1 (line 1 column 2)
+20250311	19:32:17	d3141c63-d832-461c-8a63-f7697ded1bbd	TypeError: rolesArray is not a function
